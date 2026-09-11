@@ -119,16 +119,36 @@ a:hover {
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
     color: var(--white);
-    padding: 120px 20px;
+    padding: 80px 20px;
     text-align: center;
-    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    margin-bottom: 2rem;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid var(--white);
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
 }
 
 .hero h1 {
@@ -395,8 +415,12 @@ a:hover {
     }
 
     .hero {
-        padding: 80px 20px;
-        min-height: 400px;
+        padding: 60px 20px;
+    }
+
+    .profile-photo {
+        width: 200px;
+        height: 200px;
     }
 
     h2 {
@@ -446,8 +470,12 @@ a:hover {
     }
 
     .hero {
-        padding: 60px 20px;
-        min-height: 300px;
+        padding: 40px 20px;
+    }
+
+    .profile-photo {
+        width: 150px;
+        height: 150px;
     }
 
     h2 {
