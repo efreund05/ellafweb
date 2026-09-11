@@ -1,4 +1,4 @@
-# Ella Freund - Marketing Student Portfolio
+# EF - Marketing Student Portfolio
 
 Welcome to my personal website! I'm a marketing student at Iowa State University expecting to graduate in December 2027. This site showcases my academic journey, campus experiences, developing digital skills, and the creative work I've explored throughout college.
 
