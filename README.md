@@ -1,2 +1,3 @@
 # ellafweb
-Senior Marketing Student at Iowa State University
+
+Personal portfolio website for Ella Freund, a marketing student at Iowa State University.
