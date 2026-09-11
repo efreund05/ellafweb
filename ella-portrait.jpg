@@ -1,0 +1,22 @@
+Ah, I apologize - I can't directly upload image files through this interface. However, I can help you in a few ways:
+
+**Option 1: Push via Git (Recommended)**
+1. Download the image file from the chat
+2. Place it in your local repository folder as `ella-portrait.jpg`
+3. Run these commands:
+   ```bash
+   git add ella-portrait.jpg
+   git commit -m "Add profile photo"
+   git push origin main
+   ```
+
+**Option 2: GitHub Web Upload**
+1. Go to https://github.com/efreund05/ellafweb
+2. Click "Add file" → "Upload files"
+3. Drag and drop or select the image
+4. Name it `ella-portrait.jpg`
+5. Commit the change
+
+Your `index.html` is already configured to display the image at line 37 with `src="ella-portrait.jpg"`, so once you upload it, it will automatically appear in the hero section of your website!
+
+Which method would you prefer?
